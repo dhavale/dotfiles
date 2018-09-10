@@ -12,6 +12,8 @@ Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'majutsushi/tagbar'
 Plug 'diabloneo/cscope_maps.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'ervandew/supertab'
 " Themes
 Plug 'NLKNguyen/c-syntax.vim'
 Plug 'NLKNguyen/papercolor-theme'
