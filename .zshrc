@@ -53,7 +53,7 @@ export PATH=$GOPATH/bin/:$PATH
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git wd vi-mode)
+plugins=(zsh-syntax-highlighting colorize vi-mode git wd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,3 +91,6 @@ function git_prompt_info() {
 }
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

@@ -180,3 +180,12 @@ nmap <leader>rt :TagbarToggle<CR>
 
 "cscope
 set cscopequickfix=s-,c-,d-,i-,t-,e-
+"paste
+se pastetoggle=<C-p>
+
+"experimental
+set ttyfast
+set ttimeout
+set ttimeoutlen=50
+set wildmenu
+set wildmode=longest:full,full
