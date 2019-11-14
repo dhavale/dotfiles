@@ -173,7 +173,8 @@ if has('persistent_undo')
 endif
 
 "DMS needs 4 space indentation. Take it.
-autocmd BufNewFile,BufRead ~/git_migration/acadia_kernel/*/pavilion/target/* setlocal expandtab
+autocmd BufNewFile,BufRead ~/git_migration/acadia_kernel/*/pavilion/target/* setlocal expandtab ts=4 sw=4
+autocmd BufNewFile,BufRead ~/real_git/acadia_kernel/pavilion/target/* setlocal expandtab ts=4 sw=4
 
 "Tagbar
 nmap <leader>rt :TagbarToggle<CR>

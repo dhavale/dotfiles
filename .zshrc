@@ -11,6 +11,7 @@ ZSH_THEME="robbyrussell"
 export EDITOR=/usr/bin/vim
 export GOPATH=$HOME/gotools/
 export PATH=$GOPATH/bin/:$PATH
+export TERM=xterm-256color
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -53,7 +54,7 @@ export PATH=$GOPATH/bin/:$PATH
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-syntax-highlighting colorize vi-mode git wd)
+plugins=(zsh-syntax-highlighting colorize vi-mode git wd tmux)
 
 source $ZSH/oh-my-zsh.sh
 
